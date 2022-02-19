@@ -1,0 +1,76 @@
+/* Common */
+#t-base-header .t-left-13-5 {
+    margin-left: 13.5px !important;
+}
+
+#t-base-header .t-pointer:hover {
+    cursor: pointer !important;
+}
+
+#t-base-header {
+    height: 40px;
+}
+
+#t-base-header #t-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 64px;
+    height: 100%;
+}
+
+/* Left */
+#t-base-header #t-header-left {
+    display: flex;
+}
+
+#t-base-header #t-header-logo {
+
+}
+
+#t-base-header #t-header-search {
+    margin-left: 98px;
+}
+
+#t-base-header #t-header-input {
+    width: 448px;
+    height: 100%;
+    padding: 0 12px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#t-base-header #t-header-input:focus {
+    outline: none;
+}
+
+/* Right */
+#t-base-header #t-header-right {
+    display: flex;
+    align-items: center;
+}
+
+#t-base-header #t-header-create {
+    
+}
+
+#t-base-header #t-header-explore {
+
+}
+
+#t-base-header #t-header-wailet {
+
+}
+
+#t-base-header #t-header-user {
+
+}
+
+
+
+
+
+
+
+

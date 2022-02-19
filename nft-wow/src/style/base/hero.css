@@ -1,0 +1,129 @@
+/* Common */
+#t-base-hero {
+    position: relative;
+    
+}
+
+#t-hero-container {
+    margin: 0 64px;
+}
+
+/* intro */
+#t-base-hero #t-hero-intro {
+    height: 383px;
+    width: 100%;
+}
+
+#t-base-hero #t-intro-container {
+    width: 340px;
+}
+
+#t-base-hero #t-hero-welcome {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 24px;
+}
+
+#t-base-hero #t-hero-title {
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+#t-base-hero #t-hero-description {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+#t-base-hero #t-hero-button {
+    display: flex;
+    align-items: center;
+}
+
+#t-base-hero .t-hero-explore {
+    background-color: #42FFD2;
+}
+
+#t-base-hero .t-hero-create {
+    margin-left: 16px;
+    background-color: #ffffff;
+}
+
+#t-hero-rectangle {
+    margin-bottom: 1px;
+    border-top: 1px solid #cccccc;
+}
+
+/* testimonial */
+#t-hero-testimonial {
+    margin-top: 43px;
+    width: 458px;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* left */
+.t-testimonial-left {
+    width: 94px;
+    height: 100%;
+    background: url('../../assets/imgs/03D974BA-5738-4EA6-B304-FA5A1BE5710E_ccexpress.png') no-repeat;
+}
+
+/* right */
+.t-testimonial-right {
+    width: 330px;
+    margin-right: 10px;
+}
+
+.t-testimonial-user {
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.t-testimonial-text {
+    line-height: 150%;
+}
+
+/* image */
+#t-base-hero #t-hero-image {
+    position: absolute;
+    height: 598px;
+    background: url('../../assets/imgs/hero-image.png') no-repeat;
+    left: 48.68%;
+    right: 12.04%;
+    bottom: 0;
+    z-index: 5;
+}
+
+#t-hero-cre {
+    font-family: 'Caveat';
+    color: #aaaaaa;
+    width: 86px;
+    height: 54px;
+    line-height: 150%;
+    position: absolute;
+    left: calc(48.68% + 598px);
+    right: 12.04%;
+    bottom: 6.69%;
+}
+
+#t-hero-background {
+    position: absolute;
+    height: 371px;
+    left: 50.79%;
+    right: 11.97%;
+    top: 0;
+    background: #FF42CA;
+    opacity: 0.4;
+    filter: blur(200px);
+}
+
+
+
+
+
+
+
+

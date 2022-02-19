@@ -1,0 +1,67 @@
+/* Common */
+#t-base-card {
+    width: 684px;
+    background-color: #ffffff;
+    margin: 0 64px;
+}
+
+#t-card-container {
+    margin: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Content */
+#t-base-card #t-card-content {
+    width: 294px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#t-base-card .t-card-icon {
+    width: 32px;
+    height: 32px;
+    background: url('../../assets/icons/icon\ 2.png') no-repeat;
+}
+
+#t-base-card .t-card-title {
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+#t-base-card .t-card-text {
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+#t-base-card .t-card-button {
+    display: inline-block;
+    background-color: #eeeeee;
+}
+
+
+/* Image */
+#t-base-card #t-card-image {
+    width: 294px;
+    height: 225px;
+    background: url('../../assets/imgs/Rectangle\ 9.png') no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
