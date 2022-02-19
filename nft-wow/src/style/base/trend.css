@@ -1,0 +1,43 @@
+/* Common */
+#t-base-trend {
+    width: calc((100% - 128px - 24px )/2);
+    height: 674px;
+    background-color: #ffffff;
+    border-radius: 8px; 
+}
+
+/* Section header */
+#t-base-trend #t-base-section {
+    padding-top: 32px;
+    margin: 0 32px 24px;
+}
+
+#t-base-trend #t-base-section .t-section-button {
+    background-color: #eeeeee;
+}
+
+/* List trending */
+#t-base-trend #t-trend-list {
+    margin: 0 32px 7px;
+    padding-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

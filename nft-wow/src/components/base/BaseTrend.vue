@@ -1,0 +1,52 @@
+<template>
+    <div id="t-base-trend">
+        <div id="t-trend-container">
+            <!-- Section header -->
+            <base-section
+                :title="title"
+                :paragraph="paragraph"
+                :buttonName="buttonName"
+            />
+
+            <!-- List -->
+            <div id="t-trend-list">
+                <base-item/>
+                <base-item/>
+                <base-item/>
+                <base-item/>
+                <base-item/>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+import BaseSection from './BaseSection.vue';
+import BaseItem from './BaseItem.vue';
+
+export default {
+    name: 'base-trend',
+    components: {
+        BaseSection,
+        BaseItem,
+    },
+    props: {
+        title: {
+            type: String,
+            default: "Top & Trending"
+        },
+        paragraph: {
+            type: String,
+            default: "See what’s hot in the world of non-fungibles."
+        },
+        buttonName: {
+            type: String,
+            default: "Explore"
+        },
+    },
+}
+</script>
+
+<style scoped>
+@import url('../../style/base/trend.css');
+</style>

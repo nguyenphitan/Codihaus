@@ -1,0 +1,66 @@
+/* Common */
+#t-base-item {
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeee;
+    /*  */
+    /* width: 620px; */
+}
+
+#t-base-item #t-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 106px;
+}
+
+#t-base-item .t-price {
+    margin: 0 8px;
+    width: 12px;
+    height: 20px;
+    display: inline-block;
+    background: url('../../assets/imgs/image1.png') no-repeat;
+}
+
+/* Left */
+#t-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.t-item-img {
+    margin-right: 24px;
+}
+
+.t-item-name {
+    margin-bottom: 12px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.t-lowest-price {
+    display: flex;
+    align-items: center;
+    line-height: 150%;
+}
+
+
+/* Right */
+#t-item-right {
+    text-align: right;
+}
+
+.t-item-mobilize {
+    margin-bottom: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #00A47C;
+}
+
+.t-item-price {
+    line-height: 150%;
+}
+
+
+
+
+

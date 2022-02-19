@@ -1,8 +1,9 @@
 /* Common */
 #t-base-card {
-    width: 684px;
+    display: inline-block;
+    /* width: 684px; */
     background-color: #ffffff;
-    margin: 0 64px;
+    /* margin: 0 64px; */
 }
 
 #t-card-container {
@@ -17,6 +18,7 @@
     width: 294px;
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-right: 32px;
 }
 
 #t-base-card .t-card-icon {

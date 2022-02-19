@@ -29,7 +29,7 @@
 
             <!-- image -->
             <div id="t-hero-image"></div>
-            <div id="t-hero-cre">OctopusGame by NFTGame</div>
+            <!-- <div id="t-hero-cre">OctopusGame by NFTGame</div> -->
             <div id="t-hero-background"></div>
         </div>
     </div>

@@ -5,7 +5,7 @@
 }
 
 #t-hero-container {
-    margin: 0 64px;
+    /* margin: 0 64px; */
 }
 
 /* intro */
@@ -90,6 +90,7 @@
 #t-base-hero #t-hero-image {
     position: absolute;
     height: 598px;
+    width: 100%;
     background: url('../../assets/imgs/hero-image.png') no-repeat;
     left: 48.68%;
     right: 12.04%;
@@ -113,6 +114,7 @@
     position: absolute;
     height: 371px;
     left: 50.79%;
+    right: 0;
     right: 11.97%;
     top: 0;
     background: #FF42CA;
