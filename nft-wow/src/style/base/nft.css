@@ -1,0 +1,96 @@
+/* Common */
+#t-base-nft {
+    /*  */
+    width: 330px;
+    height: 365px;
+    position: relative;
+}
+
+#t-base-nft #t-nft-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: url('../../assets/imgs/image.png') no-repeat;
+}
+
+#t-base-nft #t-nft-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    /*  */
+    background-color: rgba(227, 227, 220, 0.64);
+    backdrop-filter: blur(5px);
+}
+
+#t-base-nft .t-price {
+    margin: 0 8px;
+    width: 12px;
+    height: 20px;
+    display: inline-block;
+    background: url('../../assets/imgs/image1.png') no-repeat;
+}
+
+
+/* Left */
+#t-base-nft .t-nft-left {
+    margin: 24px;
+}
+
+#t-base-nft .t-nft-series {
+    font-size: 12px;
+    font-weight: 500;
+    color: #42FFD2;
+}
+
+#t-base-nft .t-purple-man {
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+#t-base-nft .t-nft-rank {
+    color: #777777;
+}
+
+
+/* Right */
+#t-base-nft .t-nft-right {
+    margin: 24px;
+    text-align: right;
+}
+
+#t-base-nft .t-top-bid {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#t-base-nft .t-nft-price {
+    font-weight: 500;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+#t-base-nft .t-day-left {
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

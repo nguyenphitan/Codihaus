@@ -1,0 +1,49 @@
+#t-base-press {
+    height: 40.7px;
+}
+
+#t-press-container {
+    height: 100%;
+}
+
+#t-press-icon {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-icon1 {
+    height: 100%;
+    width: 213.52px;
+    background: url('../../assets/icons/1.png') no-repeat;
+}
+
+.t-icon2 {
+    height: 100%;
+    width: 151.97px;
+    background: url('../../assets/icons/2.png') no-repeat;
+}
+
+.t-icon3 {
+    height: 100%;
+    width: 130.67px;
+    background: url('../../assets/icons/3.png') no-repeat;
+}
+
+.t-icon4 {
+    height: 100%;
+    width: 194.1px;
+    background: url('../../assets/icons/4.png') no-repeat;
+}
+
+.t-icon5 {
+    height: 100%;
+    width: 154.68px;
+    background: url('../../assets/icons/5.png') no-repeat;
+}
+
+
+
+
+
+

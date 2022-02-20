@@ -2,19 +2,7 @@
     <div id="t-base-hero">
         <div id="t-hero-container">
             <!-- intro -->
-            <div id="t-hero-intro">
-                <div id="t-intro-container">
-                    <div id="t-hero-welcome">welcome</div>
-                    <h1 id="t-hero-title">Trade NFTs <br> with zero fees</h1>
-                    <h2 id="t-hero-description">We are the world's highest-rated <br> online marketplace</h2>
-                    <div id="t-hero-button">
-                        <div class="t-hero-explore t-button">Explore NFTs</div>
-                        <div class="t-hero-create t-button">Create Your Own</div>
-                    </div>
-                </div>
-            </div>
-            <div id="t-hero-rectangle"></div>
-            <div id="t-hero-rectangle"></div>
+            <base-intro/>
 
             <!-- testimonial -->
             <div id="t-hero-testimonial">
@@ -36,8 +24,12 @@
 </template>
 
 <script>
+import BaseIntro from '../../components/base/BaseIntro.vue';
 export default {
+    components: {
+        BaseIntro,
 
+    }
 }
 </script>
 

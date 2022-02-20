@@ -1,0 +1,60 @@
+/* Common */
+#t-base-learn {
+    /*  */
+    width: 330px;
+    height: 365px;
+    position: relative;
+}
+
+#t-base-learn #t-learn-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: url('../../assets/imgs/image3.png') no-repeat;
+}
+
+#t-base-learn #t-learn-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(184, 141, 208, 0.64);
+    backdrop-filter: blur(5px);
+}
+
+#t-base-learn .t-text-area {
+    margin: 24px;
+}
+
+#t-base-learn .t-learn-title {
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #42FFD2;
+}
+
+#t-base-learn .t-learn-text {
+    color: #ffffff;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

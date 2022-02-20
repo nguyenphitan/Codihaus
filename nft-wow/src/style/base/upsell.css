@@ -1,0 +1,12 @@
+#t-base-upsell {
+    position: relative;
+}
+
+#t-upsell-graphic {
+    height: 403px;
+    width: 802px;
+    background: url('../../assets/imgs/andy-hermawan-DelMeNZjpsI-unsplash_ccexpress\ 1.png') no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
