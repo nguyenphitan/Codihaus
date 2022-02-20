@@ -85,6 +85,20 @@
         <br><br><br><br><br>
         <!-- End base footer -->
 
+        <!-- Base box -->
+        <h1>Base box</h1>
+        <br><br><br><br><br>
+        <base-box/>
+        <br><br><br><br><br>
+        <!-- End base box -->
+
+        <!-- Base stat -->
+        <h1>Base stat</h1>
+        <br>
+        <base-stat/>
+        <br><br><br><br><br>
+        <!-- End base stat -->
+
     </div>
 </template>
 
@@ -101,6 +115,8 @@ import BaseLearn from '../components/base/BaseLearn.vue';
 import BaseUpsell from '../components/base/BaseUpsell.vue';
 import BasePress from '../components/base/BasePress.vue';
 import BaseFooter from '../components/base/BaseFooter.vue';
+import BaseBox from '../components/base/BaseBox.vue';
+import BaseStat from '../components/base/BaseStat.vue';
 
 export default {
     components: {
@@ -116,6 +132,8 @@ export default {
         BaseUpsell,
         BasePress,
         BaseFooter,
+        BaseBox,
+        BaseStat,
         
     },
     data() {

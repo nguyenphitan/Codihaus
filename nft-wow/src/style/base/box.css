@@ -1,0 +1,94 @@
+/* Common */
+#t-base-box {
+    /*  */
+    width: 920px;
+}
+
+#t-box-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Ellipse */
+#t-box-ellipse {
+    width: 116px;
+    height: 116px;
+    background: url('../../assets/imgs/Ellipse-info.png') no-repeat;
+    position: absolute;
+    left: 56px;
+    top: -88px;
+    z-index: 2;
+}
+
+/* Intro box */
+#t-box-info {
+    background-color: #ffffff;
+    padding: 60px 56px 56px;
+    border-radius: 8px;
+}
+
+/* Top */
+#t-base-box #t-box-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#t-base-box #t-box-top .t-box-title {
+    line-height: 58px;
+}
+
+#t-base-box #t-box-top .t-box-text {
+    height: 33px;
+    font-size: 22px;
+    margin: 24px 0 40px;
+    line-height: 150%;
+    color: #555555;
+    display: flex;
+    align-items: center;
+}
+
+#t-base-box #t-box-top .t-box-check {
+    background-color: #42FFD2;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin-left: 12px;
+}
+
+#t-base-box #t-box-top .t-check-icon {
+    width: 22px;
+    height: 22px;
+    background: url('../../assets/icons/Vector1.png') no-repeat;
+    position: absolute;
+    top: calc(50% - 5.5px);
+    left: calc(50% - 7px);
+}
+
+#t-base-box #t-box-top .t-top-right {
+    margin-top: 9px;
+}
+
+#t-base-box #t-box-top .t-button-share {
+    background-color: #eeeeee;
+    margin-right: 16px;
+}
+
+#t-base-box #t-box-top .t-button-follow {
+    background-color: #42FFD2;
+}
+
+/* Bottom info */
+#t-box-bottom {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+

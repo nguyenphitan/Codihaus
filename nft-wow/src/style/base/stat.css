@@ -1,0 +1,51 @@
+/* Common */
+#t-base-stat {
+    /*  */
+    width: 212px;
+    height: 182px;
+}
+
+#t-stat-container {
+    height: 100%;
+    padding-top: 46px;
+    padding-left: 46px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#t-base-stat .t-price {
+    width: 22.45px;
+    height: 38px;
+    display: inline-block;
+    background: url('../../assets/imgs/eth.png') no-repeat;
+}
+
+/* Top */
+#t-stat-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.t-stat-text {
+    line-height: 58px;
+    margin-left: 9px;
+}
+
+/* Bottom */
+#t-stat-bottom {
+    color: #555555;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
