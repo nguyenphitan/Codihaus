@@ -8,15 +8,19 @@
                     <img :src="require(`@/assets/imgs/${imgName}`)"/>
                 </div>
                 <div class="t-item-info">
-                    <div class="t-item-name">#1 - Roundiiies</div>
-                    <div class="t-lowest-price">Lowest Price: <span class="t-price"></span> 45.2</div>
+                    <div class="t-item-name">{{name}}</div>
+                    <div class="t-lowest-price">Lowest Price: <span class="t-price"></span> {{lowestPrice}}</div>
                 </div>
             </div>
 
             <!-- Right -->
             <div id="t-item-right">
-                <div class="t-item-mobilize">+1,095.3%</div>
-                <div class="t-item-price"> <span class="t-price"></span> 87,490.32</div>
+                <div 
+                    class="t-item-mobilize"
+                    :class="{'t-red' : !mobilize.indexOf('-')}"
+                >{{mobilize}}</div>
+                
+                <div class="t-item-price"> <span class="t-price"></span> {{price}}</div>
             </div>
         </div>
     </div>
@@ -29,7 +33,23 @@ export default {
         imgName: {
             type: String,
             default: 'Ellipse7.png'
-        }
+        },
+        name: {
+            type: String,
+            default: ''
+        },
+        lowestPrice: {
+            type: String,
+            default: ''
+        },
+        mobilize: {
+            type: String,
+            default: ''
+        },
+        price: {
+            type: String,
+            default: ''
+        },
     },
     data() {
         return {

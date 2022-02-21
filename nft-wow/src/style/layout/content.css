@@ -1,0 +1,51 @@
+#t-the-content {
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+/* intro cards */
+#t-the-content #t-intro-cards, 
+#t-upcoming-drops #t-upcoming-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Upcomine drops */
+#t-upcoming-drops {
+    margin-top: 56px;
+}
+
+#t-upcoming-drops #t-upcoming-cards {
+    margin-top: 32px;
+}
+
+/* List trending and new */
+#t-list-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+#t-list-area .t-right-24 {
+    margin-right: 24px;
+}
+
+/* Ending soon */
+#t-ending-soon #t-base-section {
+    margin: 56px 0;
+}
+
+#t-ending-soon .t-ending-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+

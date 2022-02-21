@@ -10,11 +10,15 @@
 
             <!-- List -->
             <div id="t-trend-list">
-                <base-item/>
-                <base-item/>
-                <base-item/>
-                <base-item/>
-                <base-item/>
+                <div v-for="(item,index) in arrInfo" :key="index">
+                    <base-item 
+                        :imgName="item.imgName"
+                        :name="item.name"
+                        :lowestPrice="item.lowestPrice"
+                        :mobilize="item.mobilize"
+                        :price="item.price"
+                    />
+                </div>
             </div>
         </div>
     </div>
@@ -43,6 +47,10 @@ export default {
             type: String,
             default: "Explore"
         },
+        arrInfo: {
+            type: Array,
+            default: new Array
+        }
     },
 }
 </script>
