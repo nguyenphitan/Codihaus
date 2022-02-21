@@ -1,0 +1,9 @@
+#t-the-header #t-header-control {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    height: 12px;
+    width: 48px;
+    background: url('../../assets/icons/controls.png') no-repeat;
+    cursor: pointer;
+}

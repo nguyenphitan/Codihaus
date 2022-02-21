@@ -1,6 +1,7 @@
 /* Common */
 #t-base-card {
     display: inline-block;
+    border-radius: 8px;
     /* width: 684px; */
     background-color: #ffffff;
     /* margin: 0 64px; */
@@ -42,12 +43,19 @@
     background-color: #eeeeee;
 }
 
+#t-base-card .t-border-btn {
+    border: 1px solid #111;
+    background-color: unset;
+}
 
-/* Image */
-#t-base-card #t-card-image {
-    width: 294px;
-    height: 225px;
-    background: url('../../assets/imgs/Rectangle\ 9.png') no-repeat;
+.t-FF005C .t-border-btn {
+    color: #ff005c;
+    border: 1px solid #ff005c !important;
+}
+
+.t-AA00FF .t-border-btn {
+    color: #aa00ff;
+    border: 1px solid #aa00ff !important;
 }
 
 

@@ -4,7 +4,8 @@
             <!-- Left -->
             <div id="t-item-left">
                 <div class="t-item-img">
-                    <img src="../../assets/imgs/Ellipse7.png">
+                    <!-- <img src="@/assets/imgs/Ellipse7.png"> -->
+                    <img :src="require(`@/assets/imgs/${imgName}`)"/>
                 </div>
                 <div class="t-item-info">
                     <div class="t-item-name">#1 - Roundiiies</div>
@@ -24,23 +25,16 @@
 <script>
 export default {
     name: 'base-item',
-    // props: {
-    //     url: {
-    //         type: String,
-    //         default:'../../assets/imgs/hero-image.png'
-    //     }
-    // },
-    data() {
-        return {
-            
+    props: {
+        imgName: {
+            type: String,
+            default: 'Ellipse7.png'
         }
     },
-    // methods: {
-    //     resolve_img_url: function (path) {
-    //         let images = require.context('../../assets/', false, /\.png$|\.jpg$/)
-    //         return images("./"+path)
-    //     }
-    // }
+    data() {
+        return {
+        }
+    },
 }
 </script>
 
